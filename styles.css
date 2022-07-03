@@ -151,11 +151,7 @@ main {
   place-items: center;
 }
 
-/*
-=============== 
-Nav
-===============
-*/
+
 nav {
   background: var(--clr-white);
   height: 3rem;
@@ -164,8 +160,6 @@ nav {
   box-shadow: var(--dark-shadow);
 }
 .nav-center {
-  width: 90vw;
-  max-width: var(--fixed-width);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -174,9 +168,6 @@ nav {
 .nav-center h4 {
   margin-bottom: 0;
   color: var(--clr-primary-5);
-}
-.nav-links {
-  display: flex;
 }
 nav a {
   text-transform: capitalize;
