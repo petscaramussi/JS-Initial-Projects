@@ -4,7 +4,7 @@ let count = 0;
 // select value
 const value = document.querySelector("#value");
 
-
+teste();
 //function color
 function colorVerify(num) {
     if (num > 0) 
